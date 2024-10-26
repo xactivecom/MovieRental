@@ -16,7 +16,7 @@ import com.fod.service.CategoryService;
 
 @RestController
 @RequestMapping("/api/v1")
-public class CategoryController {
+public class CategoryControllerV1 {
     
     @Autowired
     private CategoryService categoryService;
